@@ -1,0 +1,15 @@
+["Theme"] = {
+        ["Enable"] = true,
+        ["Name"] = "Vinhduc", -- Vinhduc, Duykhanh, Thanhlong, Hainam
+        ["Custom Theme"] = {
+            ["Enable"] = false,
+            ["Text Color"] = Color3.fromRGB(231, 85, 88),
+            ["Character Position"] = UDim2.new(0.563000023, 0, -0.174999997, 0)
+        }
+    },
+    ["Webhook"] = {
+        ["Enable"] = true,
+        ["Url"] = "",
+        ["Image"] = "108568388556102"
+    }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/BapRed/main/BapRedHub"))()
